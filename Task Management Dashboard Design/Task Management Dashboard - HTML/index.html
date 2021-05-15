@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Task Management Dashboard Design</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background-color: #171721;">
+    <div></div>
+    <div>
+        <div class="row">
+            <div class="col-xl-1" style="padding-top: 40px;padding-left: 40px;">
+                <div style="margin-bottom: 50px;"><a href="#"><i class="material-icons" style="color: #929294;font-size: 25px;">dashboard</i></a></div>
+                <div style="margin-top: 20px;margin-bottom: 20px;"><a href="#"><i class="material-icons" style="color: #868589;font-size: 20px;">computer</i></a></div>
+                <div style="margin-top: 20px;margin-bottom: 20px;"><a href="#"><i class="material-icons" style="color: #868589;font-size: 20px;">bubble_chart</i></a></div>
+                <div style="margin-top: 20px;margin-bottom: 20px;"><a href="#"><i class="la la-dashboard" style="color: #868589;font-size: 20px;"></i></a></div>
+                <div style="margin-top: 20px;margin-bottom: 20px;"><a href="#"><i class="fa fa-pencil-square-o" style="color: #868589;font-size: 20px;"></i></a></div>
+                <div style="margin-top: 20px;margin-bottom: 20px;"><a href="#"><i class="material-icons" style="color: #868589;font-size: 20px;">access_alarm</i></a></div>
+                <div style="margin-top: 20px;margin-bottom: 20px;"><a href="#"><i class="icon ion-android-notifications-none" style="color: #868589;font-size: 20px;"></i></a></div>
+                <div style="margin-top: 15px;margin-bottom: 15px;"><a href="#"><i class="material-icons" style="color: #868589;font-size: 20px;">bookmark_border</i></a></div>
+            </div>
+            <div class="col" style="padding-top: 40px;padding-right: 30px;padding-bottom: 50px;">
+                <h1 class="display-2" style="font-family: 'Source Sans Pro', sans-serif;font-weight: 300;color: #ffffff;font-size: 19px;">Task Management</h1>
+                <div class="row" id="bottomborder" style="margin-top: 10px;margin-left: 0px;margin-right: 0px;margin-bottom: 60px;">
+                    <h1 class="display-2" style="font-size: 13px;font-family: Montserrat, sans-serif;font-weight: 400;color: #707070;"><strong>&nbsp;</strong><i class="la la-calendar"></i><strong>&nbsp; March 20, 2021</strong></h1>
+                    <div class="col">
+                        <h1 class="display-2 float-right" style="font-size: 13px;font-family: 'Noto Sans', sans-serif;font-weight: 400;padding-right: 10px;padding-left: 10px;color: #707071;"><strong>&nbsp;</strong><a href="#" style="color: #707071;">Year</a></h1>
+                        <h1 class="display-2 float-right" style="font-size: 13px;font-family: 'Noto Sans', sans-serif;font-weight: 400;padding-right: 10px;padding-left: 10px;color: #707071;"><strong>&nbsp;</strong><a href="#" style="color: #707071;">Month</a></h1>
+                        <h1 class="display-2 float-right" style="font-size: 13px;font-family: 'Noto Sans', sans-serif;font-weight: 400;padding-right: 10px;padding-left: 10px;color: #707071;"><strong>&nbsp;</strong><a href="#" style="color: #707071;">Week</a></h1>
+                        <h1 class="display-2 float-right" style="font-size: 13px;font-family: 'Noto Sans', sans-serif;font-weight: 400;padding-right: 10px;padding-left: 10px;color: #707071;"><strong>&nbsp;</strong><a href="#" style="color: #d0d0ff;">Day</a></h1>
+                    </div>
+                </div>
+                <div class="table-responsive" id="tableborder">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td style="color: #707070;font-size: 14px;"><strong>Requirement Study</strong></td>
+                                <td id="taskcol" style="color: #ff6b00;background-color: rgba(255,107,0,0.04);font-size: 12px;width: 240px;">About 2 Hours of work preparations</td>
+                                <td style="color: #707071;"></td>
+                            </tr>
+                            <tr>
+                                <td id="firstcol" style="color: #707071;font-size: 14px;"><strong>Strategy</strong></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td id="firstcol-2" style="color: #707071;width: 185px;"></td>
+                                <td id="firstcol-1" style="color: #707071;"></td>
+                                <td id="taskcol" style="color: hsl(6deg 79% 68%);width: 250px;background-color: rgba(255,255,255,0.05);font-size: 12px;">Strategy Planing</td>
+                                <td style="color: #707071;"></td>
+                            </tr>
+                            <tr>
+                                <td id="firstcol" style="color: #707071;font-size: 14px;"><strong>UI/UX</strong></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td id="taskcol" style="color: #b0e8e1;background-color: rgba(176,232,225,0.05);font-size: 12px;">Development&nbsp; Phase</td>
+                                <td id="firstcol" style="color: #f2c8ee;width: 250px;font-size: 12px;"></td>
+                            </tr>
+                            <tr>
+                                <td id="firstcol" style="color: #707071;font-size: 14px;"><strong>Design to Development</strong></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                            </tr>
+                            <tr>
+                                <td class="shadow-sm" id="firstcol" style="color: #ffffff;width: 200px;background-color: rgba(237,237,237,0.07);font-size: 14px;"><strong>Prototyping</strong></td>
+                                <td style="color: #707071;"></td>
+                                <td id="taskcol" style="color: #19b6fc;background-color: rgba(25,182,252,0.07);font-size: 12px;">Prototype design in progress<br></td>
+                                <td id="taskcol-2" style="color: #19b6fc;width: 250px;background-color: rgba(25,182,252,0.07);font-size: 12px;"></td>
+                                <td style="color: #707071;"></td>
+                            </tr>
+                            <tr>
+                                <td id="firstcol" style="color: #707071;font-size: 14px;"><strong>Testing</strong></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td style="color: #707071;"></td>
+                                <td style="color: #707071;"></td>
+                                <td id="taskcol" style="color: #b1e8e2;width: 250px;background-color: rgba(177,232,226,0.02);font-size: 12px;">Testing Progress</td>
+                            </tr>
+                            <tr>
+                                <td id="firstcol" style="color: #707071;font-size: 14px;"><strong>Documentation</strong></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td id="taskcol" style="color: #ee786c;background-color: rgba(238,120,108,0.16);font-size: 12px;">Graphic Design Completed</td>
+                                <td style="color: #707071;"></td>
+                                <td style="color: #707071;"></td>
+                            </tr>
+                            <tr>
+                                <td id="firstcol" style="color: #707071;font-size: 14px;"><strong>Deployment</strong></td>
+                                <td id="firstcol" style="color: #707071;"></td>
+                                <td style="color: #707071;"></td>
+                                <td id="taskcol" style="color: #b1e8e2;width: 250px;background-color: rgba(177,232,226,0.02);font-size: 12px;">Deployment</td>
+                                <td style="color: #707071;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col">
+                        <div class="card" id="cardstyle-1" style="margin-top: 30px;background-color: #22222c;">
+                            <div class="card-body" style="padding-top: 30px;">
+                                <h4 class="card-title" style="font-family: ABeeZee, sans-serif;color: #8d8d8e;">Design Team</h4>
+                                <h6 class="text-muted card-subtitle mb-2" style="font-family: ABeeZee, sans-serif;font-size: 13px;">Openflow Solutions</h6>
+                                <div class="progress mb-4" style="height: 3px;margin: 0px;">
+                                    <div class="progress-bar bg-primary" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+                                </div>
+                                <h6 class="text-muted card-subtitle mb-2" style="font-family: ABeeZee, sans-serif;font-size: 13px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum sit amet nulla eu tristique. Aenean auctor vestibulum odio, in hendrerit velit tempus ut.<br><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="cardstyle-2" style="margin-top: 30px;background-color: #22222c;">
+                            <div class="card-body" style="padding-top: 30px;">
+                                <h4 class="card-title" style="font-family: ABeeZee, sans-serif;color: #8d8d8e;">Development&nbsp;</h4>
+                                <h6 class="text-muted card-subtitle mb-2" style="font-family: ABeeZee, sans-serif;font-size: 13px;">Openflow Solutions</h6>
+                                <div class="progress mb-4" style="height: 4px;">
+                                    <div class="progress-bar bg-danger" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">20%</span></div>
+                                </div>
+                                <h6 class="text-muted card-subtitle mb-2" style="font-family: ABeeZee, sans-serif;font-size: 13px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum sit amet nulla eu tristique. Aenean auctor vestibulum odio, in hendrerit velit tempus ut.<br><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="cardstyle-1" style="margin-top: 30px;background-color: #22222c;">
+                            <div class="card-body" style="padding-top: 30px;">
+                                <h4 class="card-title" style="font-family: ABeeZee, sans-serif;color: #8d8d8e;">Testing</h4>
+                                <h6 class="text-muted card-subtitle mb-2" style="font-family: ABeeZee, sans-serif;font-size: 13px;">Openflow Solutions</h6>
+                                <div class="progress mb-4" style="height: 4px;">
+                                    <div class="progress-bar bg-success" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"><span class="sr-only">100%</span></div>
+                                </div>
+                                <h6 class="text-muted card-subtitle mb-2" style="font-family: ABeeZee, sans-serif;font-size: 13px;"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum sit amet nulla eu tristique. Aenean auctor vestibulum odio, in hendrerit velit tempus ut.<br><br></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3" style="background-color: #14141c;padding-top: 40px;padding-right: 20px;max-width: 20%;padding-left: 35px;padding-bottom: 150px;min-height: 0px;">
+                <div class="row" style="margin-bottom: 10px;">
+                    <div class="col" style="padding-left: 0px;"><i class="material-icons" style="font-size: 15px;padding-right: 10px;padding-bottom: 10px;color: #707071;">search</i><i class="material-icons" style="font-size: 15px;padding-right: 10px;padding-bottom: 10px;color: #707071;">notifications_none</i></div>
+                    <div
+                        class="col-xl-7 d-xl-flex justify-content-xl-start" style="padding-left: 0px;">
+                        <h1 class="display-2 float-right" style="font-size: 15px;font-family: 'Noto Sans', sans-serif;font-weight: 400;padding-right: 10px;padding-left: 10px;color: #707071;"><strong>Jhon Doe&nbsp;&nbsp;</strong><i class="fa fa-angle-right"></i></h1>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom: 10px;">
+                <div class="col-xl-12 d-xl-flex justify-content-xl-start" style="padding-left: 0px;">
+                    <h1 class="display-2 float-right" style="font-size: 19px;font-family: 'Source Sans Pro', sans-serif;font-weight: 300;padding-right: 10px;color: #ffffff;"><strong>Recent Activities</strong></h1>
+                </div>
+                <div class="col-xl-12 d-xl-flex justify-content-xl-start" style="padding-left: 0px;">
+                    <h1 class="display-2" style="font-size: 13px;font-family: Montserrat, sans-serif;font-weight: 400;color: #707071;"><strong>&nbsp;Development Team</strong></h1>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-ios-stopwatch-outline" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance&nbsp;</h6>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-ios-stopwatch-outline" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance&nbsp;</h6>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-log-in" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance&nbsp;</h6>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-ios-help-empty" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance&nbsp;</h6>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-ios-telephone-outline" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance review</h6>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-ios-shuffle" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance&nbsp;</h6>
+                </div>
+            </div>
+            <div class="row d-xl-flex justify-content-xl-start align-items-xl-end" style="padding-left: 5px;">
+                <div class="card border-white shadow d-xl-flex justify-content-xl-start" id="iconcards" style="margin-top: 30px;background-color: rgba(255,255,255,0);">
+                    <div class="card-body d-xl-flex justify-content-xl-start align-items-xl-start" style="padding-top: 3px;padding-right: 7px;padding-bottom: 3px;padding-left: 7px;"><i class="icon ion-ios-gear" style="color: rgb(255,255,255);font-size: 14px;"></i></div>
+                </div>
+                <div class="col" style="font-size: 12px;">
+                    <h6 style="font-size: 12px;color: #707071;">Meeting Topic on Performance&nbsp;</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

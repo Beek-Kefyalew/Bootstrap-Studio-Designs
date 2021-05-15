@@ -1,0 +1,30 @@
+#bottomborder {
+  border-bottom: 1px solid rgba(190,190,190,0.11);
+}
+
+#firstColumn {
+  border-right: 1px !important;
+}
+
+#firstColumn {
+}
+
+#tableborder {
+  border: 0;
+}
+
+.table td, .table th {
+  border: 0;
+}
+
+#firstcol {
+  border-right: 1px;
+  border-style: dashed;
+  border-color: rgba(112,112,113,0.5);
+}
+
+#taskcol {
+  border-left: 2px;
+  border-style: double;
+}
+
