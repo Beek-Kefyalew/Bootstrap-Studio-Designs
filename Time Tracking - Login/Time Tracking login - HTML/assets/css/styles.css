@@ -1,0 +1,22 @@
+#inputareas {
+  border: 0px;
+  border-bottom: 1px;
+  border-style: groove;
+  border-color: rgba(200,200,200,0.27);
+  border-radius: 0px;
+}
+
+#btnNoshadow {
+  border-radius: 15px!important;
+  box-shadow: initial;
+  border-color: transparent!important;
+}
+
+#curvcolumn {
+  border-radius: 25px;
+}
+
+#borderrad {
+  border-radius: 20px;
+}
+
