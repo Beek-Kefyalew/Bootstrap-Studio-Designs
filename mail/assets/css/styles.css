@@ -1,0 +1,16 @@
+#mainNav {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+#downloadbutton {
+  border-color: #ffffff;
+  border-radius: 10px;
+  border-style: double;
+}
+
+#html {
+  width: 100%;
+  overflow: hidden;
+}
+
